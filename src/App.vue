@@ -1,13 +1,16 @@
 <template>
   <div>
-    <element-view></element-view>
+    <!-- element-ui installation test -->
+    <!-- <element-view></element-view> -->
+    <login-view></login-view>
   </div>
 </template>
 
 <script>
-import ElementView from './views/element/ElementView.vue'
+import LoginView from './views/login/LoginView.vue'
+// import ElementView from './views/element/ElementView.vue'
 export default {
-  components: { ElementView },
+  components: {LoginView /* ElementView */ },
 
 }
 </script>
