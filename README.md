@@ -1,24 +1,26 @@
-# front-end
+# 学生管理系统
 
-## Project setup
-```
-npm install
-```
+这是一个用于管理学生上课情况和学费的网站。
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## 功能
 
-### Compiles and minifies for production
-```
-npm run build
-```
+- 记录学生的剩余课程数量
+- 跟踪学生的学费余额
 
-### Lints and fixes files
-```
-npm run lint
-```
+## 技术栈
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- Vue.js：用于构建用户界面的JavaScript框架
+- Element-UI：基于Vue.js的UI组件库
+
+## 接下来的可能扩展功能
+
+- 添加教师管理功能，包括教师信息和课程安排
+- 实现学生签到功能，记录学生的出勤情况
+- 支持学生在线支付学费
+- 添加课程评价和反馈功能
+- 实现多语言支持
+- 增加管理员角色，用于管理教师和学生信息
+- 添加数据分析和报表功能，用于统计学生上课情况和学费收入
+- 管理学生的上课时间表
+- 生成学生的上课报告
+- 发送提醒学生上课和付费的通知
